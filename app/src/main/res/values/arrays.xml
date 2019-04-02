@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pause_array">
+        <item>@string/resume</item>
+        <item>@string/restart</item>
+        <item>@string/main_menu</item>
+    </array>
+</resources>

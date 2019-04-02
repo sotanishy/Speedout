@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "55293175187",
+    "firebase_url": "https://games-62eba.firebaseio.com",
+    "project_id": "games-62eba",
+    "storage_bucket": "games-62eba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55293175187:android:f146af927f3f87f8",
+        "android_client_info": {
+          "package_name": "com.sotanishiyama.speedout"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjIPbsiFImjBSrh1mAbSY051eoD_DPORY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "55293175187-n4vl06eas050gsbhd4kgmgmvfididnsj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
