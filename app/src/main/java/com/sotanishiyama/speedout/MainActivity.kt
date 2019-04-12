@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     private var buttonPlay: Button? = null
     private var buttonHighScore: Button? = null
+    private var buttonAbout: Button? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -23,6 +24,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         buttonPlay!!.setOnClickListener(this)
         buttonHighScore = findViewById(R.id.buttonHighScore)
         buttonHighScore!!.setOnClickListener(this)
+        buttonAbout = findViewById(R.id.buttonAbout)
+        buttonAbout!!.setOnClickListener(this)
 
         MobileAds.initialize(this, resources.getString(R.string.app_id))
     }
@@ -44,6 +47,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                         .create()
                         .show()
             }
+
+            R.id.buttonAbout -> startActivity(Intent(this, AboutPageActivity::class.java))
         }
 
     }

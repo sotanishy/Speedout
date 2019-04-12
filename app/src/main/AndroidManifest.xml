@@ -10,11 +10,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".AboutPageActivity"></activity>
+
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-2697632527558860~8592804456"/>
+            android:value="ca-app-pub-2697632527558860~8592804456" />
+
         <activity
-            android:name="com.sotanishiyama.speedout.SplashActivity"
+            android:name=".SplashActivity"
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,8 +25,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.sotanishiyama.speedout.MainActivity" />
-        <activity android:name="com.sotanishiyama.speedout.GameActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".GameActivity" />
     </application>
 
 </manifest>

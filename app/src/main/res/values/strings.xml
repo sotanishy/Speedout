@@ -4,6 +4,7 @@
     <string name="logo">S P E E D O U T</string>
     <string name="play">Play</string>
     <string name="high_score">High Score</string>
+    <string name="about">About</string>
 
     <string name="pause_menu_title">Paused</string>
     <string name="resume">Resume</string>
